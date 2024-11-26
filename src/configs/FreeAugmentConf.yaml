@@ -1,0 +1,48 @@
+k: 3
+
+stoch_batch_aug: true
+stoch_batch_mag: true
+stoch_batch_depth: true
+stoch_batch_skips: true
+
+apply_sinkhorn: true
+apply_depth: true
+
+learn_depth: true
+learn_skips: false
+
+# apply_chosen_augs_only: true
+# calc_soft_mult_grads: false
+
+apply_chosen_augs_only: false
+calc_soft_mult_grads: true
+
+augs_gumbel_sinkhorn:
+  log_epsilon: -10.0 
+  iters: 20
+  temp:
+    init: .1 
+    factor: 1. 
+    warmup: 1_000
+    min_val: .1
+
+augs_gumbel_softmax:
+  temp:
+    init: .1 
+    factor: 1. 
+    warmup: 1_000 
+    min_val: 0.1
+
+depth_gumbel_softmax:
+  temp:
+    init: 0.1 
+    factor: 1.0 
+    warmup: 1_000 
+    min_val: 0.1
+
+aug_skips:
+  prob:
+    init: 0.00
+    factor: 1.0
+    warmup: 0
+    min_val: 0.0
