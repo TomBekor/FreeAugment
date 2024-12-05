@@ -178,9 +178,6 @@ This section provides an overview of the main modules and components implemented
 - The implementation of differentiable **Gumbel-Sinkhorn** operations are adapted from the work of Hedda Cohen. You can find the original source [here](https://github.com/HeddaCohenIndelman/Learning-Gumbel-Sinkhorn-Permutations-w-Pytorch).
 - **Photo of a Cool Dog**: Sourced from the [internet](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpapercave.com%2Fcool-dog-backgrounds&psig=AOvVaw0j309qwECy8HAlnboKn5QJ&ust=1732472483087000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOiJxZqJ84kDFQAAAAAdAAAAABAa). If this is your work and you’d like credit adjusted or the image removed, please contact us.
 
-## Contact Us :calling:
-For any questions, feedback, or ideas, feel free to get in touch via tom.bekor (at) campus.technion.ac.il.
-
 ## Citation :fountain_pen:
 ```
 @inproceedings{bekor2024freeaugment,
@@ -191,6 +188,9 @@ For any questions, feedback, or ideas, feel free to get in touch via tom.bekor (
   year={2024}
 }
 ```
+
+## Contact Us :calling:
+For any questions, feedback, or ideas, feel free to get in touch via tom.bekor (at) campus.technion.ac.il.
 
 ## License :lock:
 
