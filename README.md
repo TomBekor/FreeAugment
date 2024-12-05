@@ -181,6 +181,17 @@ This section provides an overview of the main modules and components implemented
 ## Contact Us :calling:
 For any questions, feedback, or ideas, feel free to get in touch via tom.bekor (at) campus.technion.ac.il.
 
+## Citation :fountain_pen:
+```
+@inproceedings{bekor2024freeaugment,
+  title={FreeAugment: Data Augmentation Search Across All Degrees of Freedom},
+  author={Bekor, Tom and Nayman, Niv and Zelnik-Manor, Lihi},
+  booktitle={European Conference on Computer Vision},
+  pages={36--53},
+  year={2024}
+}
+```
+
 ## License :lock:
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
